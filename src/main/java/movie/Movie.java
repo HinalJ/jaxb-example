@@ -22,6 +22,7 @@ public class Movie {
     private BigDecimal rating;
     private int votes;
 
+
     @XmlElementWrapper(name = "genres")
     @XmlElement(name = "genre")
     private List<String> genres;
